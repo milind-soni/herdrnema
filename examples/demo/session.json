@@ -1,0 +1,271 @@
+{
+ "format": "herdrnema/1",
+ "herdr_version": "0.8.0",
+ "started_at": 1786444510.446081,
+ "ended_at": 1786444530.549101,
+ "duration": 20.103,
+ "workspaces": [
+  {
+   "workspace_id": "wG",
+   "number": 3,
+   "label": "hnema-test",
+   "focused": false,
+   "pane_count": 3,
+   "tab_count": 1,
+   "active_tab_id": "wG:t1",
+   "agent_status": "done"
+  }
+ ],
+ "tabs": [
+  {
+   "tab_id": "wG:t1",
+   "workspace_id": "wG",
+   "number": 1,
+   "label": "1",
+   "focused": false,
+   "pane_count": 3,
+   "agent_status": "done"
+  }
+ ],
+ "layouts": {
+  "wG:t1": {
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "zoomed": false,
+   "area": {
+    "x": 26,
+    "y": 1,
+    "width": 155,
+    "height": 46
+   },
+   "focused_pane_id": "wG:p1",
+   "panes": [
+    {
+     "pane_id": "wG:p1",
+     "focused": true,
+     "rect": {
+      "x": 26,
+      "y": 1,
+      "width": 78,
+      "height": 46
+     }
+    },
+    {
+     "pane_id": "wG:p2",
+     "focused": false,
+     "rect": {
+      "x": 104,
+      "y": 1,
+      "width": 77,
+      "height": 23
+     }
+    },
+    {
+     "pane_id": "wG:p3",
+     "focused": false,
+     "rect": {
+      "x": 104,
+      "y": 24,
+      "width": 77,
+      "height": 23
+     }
+    }
+   ],
+   "splits": [
+    {
+     "id": "split_0_root",
+     "direction": "right",
+     "ratio": 0.5,
+     "rect": {
+      "x": 26,
+      "y": 1,
+      "width": 155,
+      "height": 46
+     }
+    },
+    {
+     "id": "split_1_1",
+     "direction": "down",
+     "ratio": 0.5,
+     "rect": {
+      "x": 104,
+      "y": 1,
+      "width": 77,
+      "height": 46
+     }
+    }
+   ]
+  }
+ },
+ "panes": {
+  "wG:p1": {
+   "cast": "pane-wG-p1.cast",
+   "cols": 78,
+   "rows": 46,
+   "frames": 14,
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "agent": null,
+   "title": "wG:p1",
+   "final_status": "unknown"
+  },
+  "wG:p2": {
+   "cast": "pane-wG-p2.cast",
+   "cols": 77,
+   "rows": 46,
+   "frames": 9,
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "agent": "claude",
+   "title": "claude",
+   "final_status": "done"
+  },
+  "wG:p3": {
+   "cast": "pane-wG-p3.cast",
+   "cols": 77,
+   "rows": 23,
+   "frames": 4,
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "agent": null,
+   "title": "wG:p3",
+   "final_status": "unknown"
+  }
+ },
+ "events": [
+  {
+   "t": 0.0,
+   "type": "pane_started",
+   "pane_id": "wG:p1",
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "agent": null,
+   "agent_status": "unknown",
+   "title": "wG:p1",
+   "cols": 78,
+   "rows": 46
+  },
+  {
+   "t": 0.0,
+   "type": "pane_started",
+   "pane_id": "wG:p2",
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "agent": "claude",
+   "agent_status": "blocked",
+   "title": "claude",
+   "cols": 77,
+   "rows": 46
+  },
+  {
+   "t": 1.5086,
+   "type": "agent_status",
+   "pane_id": "wG:p2",
+   "agent": "claude",
+   "agent_status": "working",
+   "title": "claude"
+  },
+  {
+   "t": 6.4774,
+   "type": "layout",
+   "tab_id": "wG:t1",
+   "workspace_id": "wG",
+   "layout": {
+    "workspace_id": "wG",
+    "tab_id": "wG:t1",
+    "zoomed": false,
+    "area": {
+     "x": 26,
+     "y": 1,
+     "width": 155,
+     "height": 46
+    },
+    "focused_pane_id": "wG:p1",
+    "panes": [
+     {
+      "pane_id": "wG:p1",
+      "focused": true,
+      "rect": {
+       "x": 26,
+       "y": 1,
+       "width": 78,
+       "height": 46
+      }
+     },
+     {
+      "pane_id": "wG:p2",
+      "focused": false,
+      "rect": {
+       "x": 104,
+       "y": 1,
+       "width": 77,
+       "height": 23
+      }
+     },
+     {
+      "pane_id": "wG:p3",
+      "focused": false,
+      "rect": {
+       "x": 104,
+       "y": 24,
+       "width": 77,
+       "height": 23
+      }
+     }
+    ],
+    "splits": [
+     {
+      "id": "split_0_root",
+      "direction": "right",
+      "ratio": 0.5,
+      "rect": {
+       "x": 26,
+       "y": 1,
+       "width": 155,
+       "height": 46
+      }
+     },
+     {
+      "id": "split_1_1",
+      "direction": "down",
+      "ratio": 0.5,
+      "rect": {
+       "x": 104,
+       "y": 1,
+       "width": 77,
+       "height": 46
+      }
+     }
+    ]
+   }
+  },
+  {
+   "t": 6.4774,
+   "type": "pane_started",
+   "pane_id": "wG:p3",
+   "workspace_id": "wG",
+   "tab_id": "wG:t1",
+   "agent": null,
+   "agent_status": "unknown",
+   "title": "wG:p3",
+   "cols": 77,
+   "rows": 23
+  },
+  {
+   "t": 8.6572,
+   "type": "agent_status",
+   "pane_id": "wG:p2",
+   "agent": "claude",
+   "agent_status": "blocked",
+   "title": "claude"
+  },
+  {
+   "t": 11.7081,
+   "type": "agent_status",
+   "pane_id": "wG:p2",
+   "agent": "claude",
+   "agent_status": "done",
+   "title": "claude"
+  }
+ ]
+}
